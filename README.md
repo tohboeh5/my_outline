@@ -8,5 +8,6 @@ kubectl create secret generic postgres-secret -n outline --dry-run=client --from
 ```
 
 ```bash
-kubectl 
+kubectl apply -f init
+kubectl apply -f kubefiles
 ```
