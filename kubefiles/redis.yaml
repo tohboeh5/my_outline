@@ -21,7 +21,7 @@ spec:
           volumeMounts:
             - mountPath: /redis.conf
               name: pvc-redis
-          imagePullPolicy: Always
+          imagePullPolicy: Always 
           ports:
             - containerPort: 6379
           resources: {}
